@@ -1,0 +1,50 @@
+<svg id="screen" class="clickable" pointer-events="visible">
+
+    <!-- Time/Date -->
+    <g>
+        <section class="datetime">
+            <text id="dateElem" class="displayText"/>
+            <text id="timeElem" class="displayText"/>
+        </section>
+
+        <section class="batterySection">
+            <rect id="batteryRect"/>
+            <image id="batteryImage" href="images/battery.png"/>
+        </section>
+
+        <animate attributeName="opacity" from="1" to="0" dur="1" begin="enable"/>
+        <animate attributeName="opacity" from="0" to="1" dur="1" begin="disable"/>
+    </g>
+
+
+    <section class="stats">
+
+        <text id="heartText" class="displayText"/>
+        <rect id="heart"/>
+        <image id="heartImage" href="images/heart.png"/>
+
+        <text id="azmText" class="displayText"/>
+        <rect id="azm"/>
+        <image id="azmImage" href="images/AZM.png"/>
+
+        <text id="floorsText" class="displayText"/>
+        <rect id="floors"/>
+        <image id="floorsImage" href="images/floors.png"/>
+
+        <text id="caloriesText" class="displayText"/>
+        <rect id="calories"/>
+        <image id="caloriesImage" href="images/calories.png"/>
+
+        <text id="stepsText" class="displayText"/>
+        <rect id="steps"/>
+        <image id="stepsImage" href="images/steps.png"/>
+
+        <text id="distanceText" class="displayText"/>
+        <rect id="distance"/>
+        <image id="distanceImage" href="images/distance.png"/>
+
+        <line id="graphLine"/>
+    </section>
+
+    <rect id="clickable" />
+</svg>

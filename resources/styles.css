@@ -1,0 +1,236 @@
+/*noinspection ALL*/
+#screen {
+    viewport-fill: black;
+}
+
+/*noinspection ALL*/
+.datetime {
+    x: 11%+2;
+    y: 9%;
+}
+
+/*noinspection ALL*/
+#timeElem {
+    font-size: 74;
+    text-anchor: end;
+    x: 54%;
+    y: 18%;
+}
+
+/*noinspection ALL*/
+#dateElem {
+    font-size: 22;
+    text-anchor: end;
+    x: 52%;
+    y: 0%;
+}
+
+/*noinspection ALL*/
+.displayText {
+    font-family: System-Bold;
+    text-length: 32;
+    fill: white;
+}
+
+
+/*noinspection ALL*/
+#test {
+    x: 5%;
+    y: 30%;
+    width: 90%;
+    height: 60%;
+    fill: green;
+}
+
+/*noinspection ALL*/
+#heart {
+    x: 6%;
+    y: 35%;
+    width: 13%;
+    height: 45%;
+    fill: red;
+}
+
+/*noinspection ALL*/
+#heartImage {
+    x: 8%+1;
+    y: 82%;
+    width: 25;
+    height: 25;
+}
+
+/*noinspection ALL*/
+#heartText {
+    x: 12%;
+    y: 32%;
+    font-size: 15;
+    text-anchor: middle;
+}
+
+/*noinspection ALL*/
+#azm {
+    x: 21%;
+    y: 60%;
+    width: 13%;
+    height: 20%;
+    fill: gold;
+}
+
+/*noinspection ALL*/
+#azmImage {
+    x: 23%+1;
+    y: 82%;
+    width: 25;
+    height: 25;
+}
+
+/*noinspection ALL*/
+#azmText {
+    x: 27%+1;
+    y: 32%;
+    font-size: 15;
+    text-anchor: middle;
+}
+
+/*noinspection ALL*/
+#floors {
+    x: 36%;
+    y: 60%;
+    width: 13%;
+    height: 20%;
+    fill: magenta;
+}
+
+/*noinspection ALL*/
+#floorsImage {
+    x: 38%+1;
+    y: 82%;
+    width: 25;
+    height: 25;
+}
+
+/*noinspection ALL*/
+#floorsText {
+    x: 42%;
+    y: 32%;
+    font-size: 15;
+    text-anchor: middle;
+}
+
+/*noinspection ALL*/
+#calories {
+    x: 51%;
+    y: 60%;
+    width: 13%;
+    height: 20%;
+    fill: limegreen;
+}
+
+/*noinspection ALL*/
+#caloriesImage {
+    x: 53%+1;
+    y: 82%;
+    width: 25;
+    height: 30;
+}
+
+/*noinspection ALL*/
+#caloriesText {
+    x: 57%+1;
+    y: 32%;
+    font-size: 15;
+    text-anchor: middle;
+}
+
+/*noinspection ALL*/
+#steps {
+    x: 66%;
+    y: 60%;
+    width: 13%;
+    height: 20%;
+    fill: deepskyblue;
+}
+
+/*noinspection ALL*/
+#stepsImage {
+    x: 68%+1;
+    y: 82%;
+    width: 25;
+    height: 30;
+}
+
+/*noinspection ALL*/
+#stepsText {
+    x: 72%+2;
+    y: 32%;
+    font-size: 15;
+    text-anchor: middle;
+}
+
+/*noinspection ALL*/
+#distance {
+    x: 81%;
+    y: 60%;
+    width: 13%;
+    height: 20%;
+    fill: orange;
+}
+
+/*noinspection ALL*/
+#distanceImage {
+    x: 83%+1;
+    y: 82%;
+    width: 25;
+    height: 30;
+}
+
+/*noinspection ALL*/
+#distanceText {
+    x: 87%;
+    y: 32%;
+    font-size: 15;
+    text-anchor: middle;
+}
+
+/*noinspection ALL*/
+#graphLine {
+    x1: 0%;
+    y1: 80%;
+    x2: 100%;
+    y2: 80%;
+    stroke-width: 2;
+    fill: white;
+}
+
+/*noinspection ALL*/
+.batterySection {
+    x: 7%;
+    y: 12%;
+}
+
+/*noinspection ALL*/
+#batteryImage {
+    x: 0%;
+    y: 0%;
+    width: 24;
+    height: 50;
+}
+
+/*noinspection ALL*/
+#batteryRect{
+    x: 0%+1;
+    y: 0%+4;
+    width: 22;
+    height: 45;
+    fill:white;
+}
+
+/*noinspection ALL*/
+#clickable {
+    x: 0;
+    y: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: visible;
+    opacity: 0;
+}
