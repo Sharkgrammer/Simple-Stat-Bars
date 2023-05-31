@@ -69,6 +69,4 @@ function dayPostfix(day) {
     }
 
     return `${day}${postFix}`
-
-
 }

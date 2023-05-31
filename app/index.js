@@ -61,7 +61,7 @@ function activityCallback(data) {
     setRectBounds(data.steps.raw / data.steps.goal, steps, stepsText, true);
 
     distanceText.text = data.distance.pretty;
-    setRectBounds(data.distance.raw / (data.distance.goal / 1000), distance, distanceText, true);
+    setRectBounds(data.distance.raw / (data.distance.goal / 1000), distance, distanceText);
 
     azmText.text = data.activeMinutes.pretty;
     setRectBounds(data.activeMinutes.raw / data.activeMinutes.goal, azm, azmText);

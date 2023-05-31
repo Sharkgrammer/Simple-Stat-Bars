@@ -35,13 +35,13 @@
         <rect id="calories"/>
         <image id="caloriesImage" href="images/calories.png"/>
 
-        <text id="stepsText" class="displayText"/>
-        <rect id="steps"/>
-        <image id="stepsImage" href="images/steps.png"/>
-
         <text id="distanceText" class="displayText"/>
         <rect id="distance"/>
         <image id="distanceImage" href="images/distance.png"/>
+
+        <text id="stepsText" class="displayText"/>
+        <rect id="steps"/>
+        <image id="stepsImage" href="images/steps.png"/>
 
         <line id="graphLine"/>
     </section>
