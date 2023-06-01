@@ -10,7 +10,7 @@
   "fitbit": {
     "appUUID": "0563ab5d-7ac2-4331-ac91-4e5feff9137c",
     "appType": "clockface",
-    "appDisplayName": "Graphface",
+    "appDisplayName": "Simple Stat Bars",
     "iconFile": "resources/icon.png",
     "wipeColor": "#ffffff",
     "requestedPermissions": [

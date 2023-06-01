@@ -46,7 +46,7 @@ function tickHandler(evt) {
 }
 
 function dayPostfix(day) {
-    let tempDay = day;
+    let tempDay = Number(day);
     let postFix;
 
     while (tempDay > 10) {
@@ -68,5 +68,5 @@ function dayPostfix(day) {
             break;
     }
 
-    return `${day}${postFix}`
+    return `${tempDay}${postFix}`
 }
