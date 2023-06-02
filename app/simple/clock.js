@@ -5,7 +5,7 @@
 import clock from "clock";
 import {preferences} from "user-settings";
 
-import {days, months, monthsShort} from "./locales/en.js";
+import {days, monthsShort} from "./locales/en.js";
 import * as util from "./utils";
 import {battery, charger} from "power";
 

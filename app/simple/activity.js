@@ -57,7 +57,7 @@ function getActiveMinutes() {
     let val = (today.adjusted.activeZoneMinutes.total || 0);
     return {
         raw: val,
-        pretty: (val < 60 ? "" : Math.floor(val / 60) + "h,") + ("0" + (val % 60)).slice("-2"),
+        pretty: (val < 60 ? "" : Math.floor(val / 60) + "h ") + ((val % 60)) + "m",
         goal: goals.activeZoneMinutes.total
     }
 }

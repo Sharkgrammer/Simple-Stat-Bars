@@ -63,7 +63,7 @@
 #heartText {
     x: 12%;
     y: 32%;
-    font-size: 15;
+    font-size: 17;
     text-anchor: middle;
 }
 
@@ -88,7 +88,7 @@
 #azmText {
     x: 27%+1;
     y: 32%;
-    font-size: 15;
+    font-size: 17;
     text-anchor: middle;
 }
 
@@ -113,7 +113,7 @@
 #floorsText {
     x: 42%;
     y: 32%;
-    font-size: 15;
+    font-size: 17;
     text-anchor: middle;
 }
 
@@ -138,7 +138,7 @@
 #caloriesText {
     x: 57%+1;
     y: 32%;
-    font-size: 15;
+    font-size: 17;
     text-anchor: middle;
 }
 
@@ -163,7 +163,7 @@
 #distanceText {
     x: 72%+2;
     y: 32%;
-    font-size: 15;
+    font-size: 17;
     text-anchor: middle;
 }
 
@@ -188,7 +188,7 @@
 #stepsText {
     x: 87%;
     y: 32%;
-    font-size: 15;
+    font-size: 17;
     text-anchor: middle;
 }
 
